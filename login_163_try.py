@@ -9,8 +9,6 @@ import json
 # os.environ["webdriver.Chrome.driver"] = chromedriver 
 driver = webdriver.Chrome()
 login_url = 'https://mail.163.com/'
-driver.get(login_url)
-time.sleep(5)
 
 def click_login(user, password):
     # 没有将定位不到元素
