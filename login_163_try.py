@@ -62,7 +62,7 @@ def cookie_login(user, password):
             for cookie in cookies:
                 driver.add_cookie(cookie)
 
-            driver.get(login_url)
+            # driver.get(login_url)
             driver.refresh()
     except Exception as e:
         # print(e)
